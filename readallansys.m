@@ -16,7 +16,7 @@ if false %exist(filename, 'file') == 2
     end
 else
     % File does not exist.
-    doImport = false;
+    doImport = true;
 end
 
 if doImport
